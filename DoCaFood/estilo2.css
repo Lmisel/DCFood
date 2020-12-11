@@ -1,0 +1,121 @@
+#Encabezado1{ 
+    background-color: rgb(87, 21, 12) ;  margin: 4px; 
+    position: relative sticky;
+    height: 140px;
+    padding: 0%;
+    width: 100vw;
+    top: 5px;
+    opacity: 1;
+    border-radius: 3em;
+    z-index: 1;
+    }
+.Encabezado1__div-responsive{ display: none;}
+.Encabezado1__h2--di{
+    font-size: 3em; 
+    font-family: 'Yellowtail', cursive;
+    top:20px;
+    flex:1;
+    display:flex;
+    z-index:   5;}
+.LogoName{ top: 20px auto; display:flex; flex: auto;}
+.PerroIco {
+    top:20px;
+    right:0;
+    height: 140px;
+    flex:auto; 
+    z-index: 10;}
+.Encabezado1__div-div { display: inline;}
+
+.Titulo__Body {color: rgba(44, 27, 2, 0.705);
+font-family: 'Yellowtail' cursive; left: 0; position: relative;
+display: block;z-index: 10;}
+#Saludoh1 {
+    color: rgb(44, 5, 5);
+}
+#Saludo1__h2 {
+    color: rgb(75, 23, 23);
+}
+#textopre {
+    color: rgb(92, 56, 11);background-color: rgb(228, 210, 178);
+}
+
+
+#ContenedorContact{font-family: 'Yellowtail', cursive; padding-top: 10em; overflow: auto; overflow-y: hidden;}
+.contact-form__input--active{ margin-left: 5px;}
+.contact-form__input{
+    padding: auto;
+    margin: auto;
+    font-size: auto;
+    background-color: black;
+    width: auto;
+    border-radius: 6em;
+    border: solid;
+    box-sizing: content-box; 
+    position: absolute }
+
+#TitContact {
+    margin-left: 20px;
+}
+#ContenedorContact{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    margin: 18px 18px;
+    height: 100px ;
+    border-radius: 6em;
+    overflow: auto;}
+
+
+contact-form__input{ display: inline-block; position: relative}   
+.UserH2{padding: 5px; margin: 80px; overflow: auto; border: 3in rgb(84, 155, 84);}
+.UserH2::placeholder { color: green}
+.UserH2::selection{ color: darkgreen}
+body{ background-color: #FFA07A	; 
+ z-index: 50; opacity: 1.5;
+    }
+a::visited{ color: rgb(114, 0, 114)}
+#nav{  color: rgba(133, 12, 42, 0.705);
+     background-color: rgb(77, 30, 30);
+     padding:8px;
+     margin: 10px 20px
+    }
+.nav__ul{display: inline; 
+    padding:8px;}
+.nav__li a{color: rgb(223, 205, 205); 
+    text-decoration: none;}
+.nav__li i{ box-sizing: border-box; text-align: right; margin-right: 5px;}
+.nav__li:hover a{ color: darkgray;}
+.nav_responsi-ul{
+    display:none}
+
+@media only screen and (max-width: 500px) {
+div{ display: block; width: 90vw; font-size: 20px!important;}
+.Encabezado1__div{ display: none;}
+.Encabezado1__div-responsive{ display: inline-block;
+font-size: 40px;
+width:98vw; }
+.Encabezado1__div-responsive img{ position: relative; object-fit: contain;}
+
+#ContenedorContact{ overflow: auto; font-size: 15px ;}
+.nav__ul{ display: none }
+#nav { 
+    height: 37px; 
+    width: 100%;}
+.nav__responsive-button{
+    float: right; 
+    font-size: 30px;
+     padding: 9px 4px;
+    color: #fff8f8}
+.nav_responsi-ul{ 
+    position: absolute; 
+    display: block;
+    width: 90%;
+    background-color: #FFA07A;
+    height: 100%;
+    margin-bottom: 0px;}
+.nav__responsive-li { padding: 9px 20px;}
+.nav__responsive-li a{ width:90%; 
+    color :#fff8f9; text-decoration: none;}
+.nav__responsive-li i { color:#fff8f9; box-sizing: border-box; text-align: center;margin-right:5px; width: 50px; }
+
+ }
